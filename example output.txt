@@ -1,0 +1,32 @@
+sim Version 6.1 Log File strlibtest.log
+
+Your name          = Run mod sim /r to put your name here
+Machinecode file   = strlibtest.mac Size = 78F (hex) = 1935 (dec)
+Microcode file     = none         Size =  93 (hex) =  147 (dec)
+======================== Log turned on  Thu Nov 19 06:29:35 2015
+---- [T7] g
+The length of s1 is 3
+The length of s2 is 55
+The length of s3 is 0
+The length of s4 is 3
+strcmp(s2, s9) returned 32
+streq(s13, s9) returned 0
+substr(s2,0,2,s3); s3 = cat
+concat(s5,s6,s7); s7 = Boing!
+charat(s7, 4) returned = g
+empty(s6) returned = 0
+empty(s8) returned = 1
+endswith(s12,s9) returned = 0
+endswith(s2,s9) returned = 1
+startswith(s1,s2) returned = 1
+startswith(s2,s9) returned = 0
+index(s2,s10) returned = 9
+npos(s2,s10) returned = 1
+strcpy(s2,s11) s11 returned = cat is a longer string with non-alpha 12345 characters!
+tolower(s12,s13) s13 returned = test of will and of strength!
+toupper(s12,s14) s14 returned = TEST OF WILL AND OF STRENGTH!
+trim(s15,s16) s16 returned = tasdf t  3   dd     3
+Machine inst count =  1DDC (hex) =   7644 (dec)
+Micro   inst count = 13DBE (hex) =  81342 (dec)
+---- [T7] q
+================== sim(7cf9) terminated Thu Nov 19 06:29:37 2015
