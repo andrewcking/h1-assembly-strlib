@@ -1,4 +1,4 @@
-# h1-assembly-strlib
+# String Library for H1 Assembly
 
 | JAVA        | C                                        | 
 |-------------|------------------------------------------| 
